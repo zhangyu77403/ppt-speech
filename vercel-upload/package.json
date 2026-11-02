@@ -1,0 +1,13 @@
+{
+  "name": "ppt-speech",
+  "version": "1.0.0",
+  "private": true,
+  "description": "讲稿工坊：上传 PPT，按风格生成演讲稿（Vue 3 + FastAPI）",
+  "scripts": {
+    "build": "npm --prefix frontend install --no-audit --no-fund && npm --prefix frontend run build && rm -rf dist && cp -r frontend/dist dist",
+    "dev:frontend": "npm --prefix frontend run dev"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
